@@ -6,7 +6,7 @@ One challenge I faced was learning the Bootstrap classes and figuring out which 
 
 ## 2. How did using Bootstrap utility classes and components simplify your styling process?
 
-Bootstrap made styling easier because I didn't have to write CSS for every element. I could use classes like `d-flex`, `justify-content-center`, and `align-items-center` directly in my HTML. It also helped me understand how to arrange and align elements with less code. My style sheet is very clean now and i dont have to write lot of css to acheive the desired output.
+Bootstrap made styling easier because I didn't have to write CSS for every element. I could use classes like `d-flex`, `justify-content-center`, and `align-items-center` directly in my HTML. It also helped me understand how to arrange and align elements with less code. My style sheet is very clean now and i dont have to write lot of css to acheive the desired output. Bootstrap made it easier to create layouts and align elements using predefined utility classes, while Tailwind gave me more flexibility to customize the design.I Understood the differences between Bootstrap and Tailwind CSS classes. Refactor existing HTML and CSS without changing the overall design.
 
 ## 3. In what scenarios might you choose not to use Bootstrap and write custom CSS instead?
 
