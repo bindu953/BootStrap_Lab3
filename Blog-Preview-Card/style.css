@@ -1,0 +1,168 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Figtree", sans-serif;
+}
+
+/* Center the blog card */
+.main-content {
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+/* Blog Preview Card */
+.blog-preview-card {
+    background-color: hsl(0, 0%, 100%);
+
+    width: 384px;
+    max-width: 100%;
+
+    padding: 24px;
+    border-radius: 20px;
+
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+
+    text-align: left;
+}
+
+/* Blog illustration */
+.illustration-image {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+
+    margin-bottom: 24px;
+}
+
+/* Yellow Learning label */
+.learning {
+    display: inline-block;
+
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+
+    font-size: 14px;
+    font-weight: 800;
+
+    padding: 4px 12px;
+    border-radius: 4px;
+
+    margin-bottom: 12px;
+}
+
+/* Published date */
+.published-date {
+    font-size: 14px;
+    font-weight: 500;
+
+    color: hsl(0, 0%, 7%);
+
+    margin-bottom: 12px;
+}
+
+/* Blog heading */
+.blog-preview-card h1 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.5;
+
+    margin-bottom: 12px;
+}
+
+/* Heading link */
+.blog-title {
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+
+    transition: color 0.2s ease;
+}
+
+/* Hover effect */
+.blog-title:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+/* Blog description */
+.description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    color: hsl(0, 0%, 42%);
+
+    margin-bottom: 24px;
+}
+
+/* Keyboard focus effect */
+.blog-title:focus-visible {
+    color: hsl(47, 88%, 63%);
+    outline: 2px solid hsl(0, 0%, 7%);
+    outline-offset: 4px;
+    border-radius: 2px;
+}
+
+/* Author container */
+.avatar-div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* .avatar-img {
+    padding: 20px;
+} */
+
+.avatar-name {
+    align-items: center;
+}
+
+/* Footer */
+.attribution {
+    text-align: center;
+    font-size: 11px;
+    padding: 12px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 375px) {
+
+    .blog-preview-card h1 {
+        font-size: 20px;
+    }
+
+    .learning {
+        font-size: 12px;
+    }
+
+    .published-date {
+        font-size: 12px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+
+/* Accessibility: reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .blog-title {
+        transition: none;
+    }
+}
