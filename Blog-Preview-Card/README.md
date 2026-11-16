@@ -1,36 +1,36 @@
 
-# Blog Preview Card – Frontend Mentor
+# Blog Preview Card – Bootstrap and Tailwind CSS
 
 ## Project Overview
 
 This project is part of the Frontend Mentor Blog Preview Card Challenge.
 
-The goal was to build a responsive blog preview card using HTML and CSS and match the provided Figma design as closely as possible.
+The goal was to refactor my original HTML and CSS project using Bootstrap and Tailwind CSS utility classes while keeping the design as close to the provided Figma design as possible.
 
 ## Technologies Used
 
 - HTML5
-- CSS
-- Flexbox
+- Bootstrap 5
+- Tailwind CSS
 - Google Fonts (Figtree)
-- Media Queries
+- Visual Studio Code
+- Git and GitHub
 
 ## Features
 
 - Responsive blog preview card
-- Centered layout using CSS Flexbox
+- Centered card using Bootstrap Flexbox utilities
 - Rounded corners for the card and illustration
-- Yellow learning label
-- Styled heading, publication date, and description
-- Author avatar and name displayed using Flexbox
-- Hover and focus effects on the blog title
-- Colors, fonts, and spacing based on the style guide
+- Yellow Learning label
+- Styled blog title, publication date, and description
+- Author avatar and name aligned using Flexbox 
+- Mobile-friendly font sizes using Tailwind responsive classes
+- Custom colors, spacing, borders, and shadows
 
 ## Project Structure
 
 blog-preview-card/
 - index.html
-- style.css
 - README.md
 - assets/
   - images/
@@ -45,31 +45,42 @@ blog-preview-card/
 3. Open `index.html` using Live Server or a web browser.
 4. View the Blog Preview Card.
 
+Note: An internet connection is required to load Bootstrap, Tailwind CSS, and Google Fonts through their CDNs.
+
 ## What I Learned
 
 Through this project, I learned how to:
 
-- Use semantic HTML elements to structure a webpage.
-- Use Flexbox to center a card horizontally and vertically.
-- Apply CSS properties such as margin, padding, border-radius, and box-shadow.
-- Use Google Fonts and different font weights.
-- Create hover and focus effects for interactive elements.
-- Use media queries to make the layout responsive.
-- Align an avatar image and author name using Flexbox.
-- Follow a Figma design and style guide.
+- Use Bootstrap and Tailwind CSS utility classes.
+- Replace regular CSS properties with framework classes.
+- Use Flexbox utilities to center and align elements.
+- Apply custom colors, font sizes, padding, and margins.
+- Create borders, rounded corners, and box shadows.
+- Implement hover and focus states for interactive elements.
+- Use responsive classes to adjust font sizes on mobile screens.
+- Understand how Bootstrap and Tailwind CSS classes work together.
 
 ## Challenges Faced
 
-One challenge was matching the spacing, font sizes, and alignment of the blog card with the Figma design.
+One challenge I faced was converting my existing CSS into Bootstrap and Tailwind utility classes while keeping the original design.
 
-I also worked on aligning the author's avatar and name horizontally and creating hover effects for the blog title.
+Some Bootstrap classes did not provide the exact colors, spacing, or font sizes I needed. I used Tailwind's custom utility values to match the Figma design more closely.
 
-I addressed these challenges by adjusting CSS properties such as padding, margin, gap, and Flexbox alignment.
+I also had to be careful when mixing Bootstrap and Tailwind because some classes have similar names but different styling values.
 
 ## Reflection
 
-This challenge helped me improve my understanding of HTML and CSS and how to convert a Figma design into a responsive webpage.
+Refactoring this project helped me understand how Bootstrap and Tailwind CSS can make styling easier.
 
-I also learned how hover and focus states improve user interaction and accessibility.
+Bootstrap helped me with layout and alignment using predefined classes, while Tailwind allowed me to customize colors, sizes, and spacing.
 
+I also learned that custom CSS can sometimes be a better choice when a project requires more specific styling.
 
+Overall, this challenge helped me improve my understanding of CSS frameworks and responsive web design.
+
+## Acknowledgments
+
+- Challenge provided by [Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)
+- [Bootstrap](https://getbootstrap.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Google Fonts – Figtree](https://fonts.google.com/specimen/Figtree)
